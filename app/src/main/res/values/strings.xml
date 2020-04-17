@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MatrixCalculator</string>
+
+    <string-array name="operations">
+        <item>Addition</item>
+        <item>Subtraction</item>
+        <item>Scalar Multiplication</item>
+        <item>Matrix Multiplication</item>
+        <item>Determinant</item>
+    </string-array>
+</resources>

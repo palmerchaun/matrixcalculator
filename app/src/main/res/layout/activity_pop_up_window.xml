@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/popup_window_title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="Answer"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <TableLayout
+        android:id="@+id/answerMatrixTable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/ar0c0"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="number|numberDecimal"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/ar0c1"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="number|numberDecimal"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/ar0c2"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="number|numberDecimal"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/ar0c3"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="number|numberDecimal"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/ar0c4"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="number|numberDecimal"
+                android:textSize="30sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/ar1c0"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="number|numberDecimal"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/ar1c1"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="number|numberDecimal"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/ar1c2"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="number|numberDecimal"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/ar1c3"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="number|numberDecimal"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/ar1c4"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="number|numberDecimal"
+                android:textSize="30sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/ar2c0"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="number|numberDecimal"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/ar2c1"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="number|numberDecimal"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/ar2c2"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="number|numberDecimal"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/ar2c3"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="number|numberDecimal"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/ar2c4"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="number|numberDecimal"
+                android:textSize="30sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/ar3c0"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="number|numberDecimal"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/ar3c1"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="number|numberDecimal"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/ar3c2"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="number|numberDecimal"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/ar3c3"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="number|numberDecimal"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/ar3c4"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="number|numberDecimal"
+                android:textSize="30sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/ar4c0"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="number|numberDecimal"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/ar4c1"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="number|numberDecimal"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/ar4c2"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="number|numberDecimal"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/ar4c3"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="number|numberDecimal"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/ar4c4"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="number|numberDecimal"
+                android:textSize="30sp" />
+
+        </TableRow>
+    </TableLayout>
+
+
+    <Button
+        android:id="@+id/button_popup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Close Me" />
+
+</LinearLayout>

@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#f8fdf8">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp" />
+
+    <TableLayout
+        android:id="@+id/matrixTable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="128dp"
+                android:layout_height="40dp"
+                android:layout_span="5"
+                android:text="Matrix 1"
+                android:textSize="30sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/m1r0c0"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m1r0c1"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m1r0c2"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m1r0c3"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m1r0c4"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/m1r1c0"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m1r1c1"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m1r1c2"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m1r1c3"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m1r1c4"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/m1r2c0"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m1r2c1"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m1r2c2"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m1r2c3"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m1r2c4"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/m1r3c0"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m1r3c1"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m1r3c2"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m1r3c3"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m1r3c4"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/m1r4c0"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m1r4c1"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m1r4c2"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m1r4c3"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m1r4c4"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="128dp"
+                android:layout_height="40dp"
+                android:layout_span="5"
+                android:text="Matrix 2"
+                android:textSize="30sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/m2r0c0"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m2r0c1"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m2r0c2"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m2r0c3"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m2r0c4"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/m2r1c0"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m2r1c1"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m2r1c2"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m2r1c3"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m2r1c4"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/m2r2c0"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m2r2c1"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m2r2c2"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m2r2c3"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m2r2c4"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/m2r3c0"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m2r3c1"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m2r3c2"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m2r3c3"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m2r3c4"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/m2r4c0"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m2r4c1"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m2r4c2"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m2r4c3"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/m2r4c4"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#DED5D5"
+                android:ems="10"
+                android:inputType="numberSigned|number"
+                android:textSize="30sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
+    <Button
+        android:id="@+id/computeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Compute" />
+
+
+</LinearLayout>
